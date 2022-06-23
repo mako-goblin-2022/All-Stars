@@ -6,11 +6,8 @@ const router = express.Router()
 
 router.get('/', (req, res) => {
   db.getStars()
-    // .then((stars) => {
-    //   res.render(stars)
-    // })
-    .then(() => {
-      res.send('stars')
+    .then((stars) => {
+      res.json(stars)
     })
     .catch((err) => {
       console.error(err.message)
