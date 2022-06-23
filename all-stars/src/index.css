@@ -2,16 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+/* html {
+  background: linear-gradient(to top, rgba(0,0,0,0.5) 50%,rgba(0,0,0,0.5) 50%), url(/all-stars/public/matariki.jpeg);
+} */
+
 
 body {
   margin: 0;
+  background-image: url("https://i.pinimg.com/564x/f0/1a/8d/f01a8d5e0eb71fe2f58a8160103d1563.jpg");
+  background-size: cover;
+  background-repeat: repeat-y;
+ 
+  
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.container{
+  background-image: src="https://i.pinimg.com/564x/f0/1a/8d/f01a8d5e0eb71fe2f58a8160103d1563.jpg";
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
