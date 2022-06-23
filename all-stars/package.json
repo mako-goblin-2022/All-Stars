@@ -18,6 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "knex": "knex --knexfile src/db/knexfile.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
