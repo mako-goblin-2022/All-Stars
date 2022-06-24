@@ -2,7 +2,7 @@ import React from "react"
 
 import './App.css';
 import Navbar from './components/Navbar';
-// import Home from './components/Home';
+import Home from './components/Home';
 import Stars from './components/Stars';
 
 
@@ -11,7 +11,7 @@ function App() {
     <div className="App" >
       <div>
       <Navbar />
-      {/* <Home /> */}
+      <Home />
       <Stars />
     </div>
     </div>
