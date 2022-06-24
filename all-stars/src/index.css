@@ -20,9 +20,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.container{
+/* .container{
   background-image: src="https://i.pinimg.com/564x/f0/1a/8d/f01a8d5e0eb71fe2f58a8160103d1563.jpg";
-}
+} */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

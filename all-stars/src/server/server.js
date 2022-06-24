@@ -6,7 +6,7 @@ const stars = require('./routes/stars.js')
 const server = express()
 
 server.use(express.json())
-server.use(express.static(path.join(__dirname, 'public')))
+server.use(express.static(path.join(__dirname, '../../public')))
 
 server.use('/api/v1/stars', stars)
 
