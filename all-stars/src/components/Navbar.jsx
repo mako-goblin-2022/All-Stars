@@ -1,4 +1,5 @@
 import React from "react"
+import { NavLink } from 'react-router-dom'
 
 function Navbar() {
   return (
@@ -8,7 +9,7 @@ function Navbar() {
       </h1>
       <nav className="flex justify-center space-x-4 bg-slate-400 bg-opacity-30">
         <a
-          href="#"
+          href="/"
           className=" font-bold font-medium px-3 py-2 text-slate-50 rounded-lg hover:bg-slate-100 hover:text-slate-900"
         >
           Home
@@ -19,12 +20,7 @@ function Navbar() {
         >
           Team
         </a> */}
-        <a
-          href="/projects"
-          className="font-bold font-medium px-3 py-2 text-slate-50 rounded-lg hover:bg-slate-100 hover:text-slate-900"
-        >
-          Stars
-        </a>
+        <NavLink className="font-bold font-medium px-3 py-2 text-slate-50 rounded-lg hover:bg-slate-100 hover:text-slate-900" to={'/stars'}>Stars</NavLink>
         <a
           href="/reports"
           className="font-bold font-medium px-3 py-2 text-slate-50 rounded-lg hover:bg-slate-100 hover:text-slate-900"
