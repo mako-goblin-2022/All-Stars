@@ -21,16 +21,12 @@ useEffect(() => {
 }, [])
 
 const starsToList = stars.map((star) => {
-  return <li key={star.id}>{star.name}</li>
+  return <li key={star.id}>{star.name} <br /> {star.description} <br /> {star.name} is comparable to the Greek god {star.greek} and is a {star.role} <br /> <br /> <img src={star.image} alt="" /></li>
 })
 
   return (
     <div>
-      <h2>Nav</h2>
       <ul>
-      <li>
-        Home
-      </li>
           {starsToList}
       </ul>
     </div>

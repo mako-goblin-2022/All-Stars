@@ -1,5 +1,5 @@
 import React from "react"
-
+import { Routes, Route } from 'react-router-dom'
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -10,9 +10,12 @@ function App() {
   return (
     <div className="App" >
       <div>
-      <Navbar />
-      <Home />
-      <Stars />
+      <Navbar/>
+        <Routes>
+          <Route path='/' element={<Home/>} />
+          <Route path='/stars' element={<Stars/>}/>
+          {/* <Route path='/continents/:name/:code' element={<Navbar/>}/> */}
+        </Routes>
     </div>
     </div>
   );
