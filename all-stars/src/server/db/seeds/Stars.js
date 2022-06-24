@@ -76,7 +76,7 @@ exports.seed = (knex) => {
             'Hiwa-i-te-rangi is the youngest star in the cluster,the star associated with granting our wishes, and realising our aspirations for the coming year. Hold fast to succeed, hold firm to good fortune! Go forth into the world and prosper! ',
           greek: 'Celaeno',
           role: 'Child',
-          image: '/star-images/Hiwa-i-te-rangi.png',
+          image: '/star-images/Hiwa-i-te-rangi.jpg',
         },
         {
           id: 3,
@@ -85,7 +85,7 @@ exports.seed = (knex) => {
             'Tupuānuku is the star associated with everything that grows within the soil to be harvested or gathered for food.',
           greek: 'Pleione',
           role: 'Child',
-          image: '/star-images/Tupuanuku.png',
+          image: '/star-images/Tupuanuku.jpg',
         },
       ])
     })
