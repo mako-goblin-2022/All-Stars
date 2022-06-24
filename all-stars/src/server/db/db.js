@@ -6,5 +6,12 @@ module.exports = {
 }
 
 function getStars(db = connection) {
-  return db('Stars').select('id', 'name', 'description', 'greek', 'role')
+  return db('Stars').select(
+    'id',
+    'name',
+    'description',
+    'greek',
+    'role',
+    'image'
+  )
 }
