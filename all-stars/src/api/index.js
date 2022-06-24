@@ -1,5 +1,6 @@
 import request from 'superagent'
 
+
 export function getStars() {
   return request
     .get('/v1/stars')
