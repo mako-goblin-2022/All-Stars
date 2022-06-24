@@ -28,7 +28,7 @@
     "dev:server": "nodemon server",
     "dev": "run-p dev:client dev:server",
     "start": "node server",
-    "knex": "knex --knexfile src/db/knexfile.js",
+    "knex": "knex --knexfile src/server/db/knexfile.js",
     "build": "webpack --config ./src/webpack.config.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
