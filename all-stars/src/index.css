@@ -8,10 +8,13 @@
 
 
 body {
-  margin: 0;
+  margin:auto;
   background-image: url("https://i.pinimg.com/564x/f0/1a/8d/f01a8d5e0eb71fe2f58a8160103d1563.jpg");
   background-size: cover;
   background-repeat: repeat-y;
+ 
+
+  
  
   
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
